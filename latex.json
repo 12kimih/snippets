@@ -39,12 +39,12 @@
 
 	"Align =": {
 		"prefix": "=",
-		"body": "& = &$0"
+		"body": "& = & $0"
 	},
 
 	"Multiline Equation": {
 		"prefix": "\\negmedspace",
-		"body": "&& \\negmedspace {}$0"
+		"body": "&& \\negmedspace {} $0"
 	},
 
 	"Definition Array": {
