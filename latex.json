@@ -54,42 +54,42 @@
 
 	"Roman Function": {
 		"prefix": "\\mathrm",
-		"body": "\\mathrm{$1} \\qty($2)$0"
+		"body": "\\mathrm{$1}\\qty($2)$0"
 	},
 
 	"Probability": {
-		"prefix": "\\Pr",
-		"body": "\\Pr($1)$0"
+		"prefix": "\\P",
+		"body": "\\mathrm{P}\\qty($1)$0"
 	},
 
 	"Expectation": {
 		"prefix": "\\E",
-		"body": "\\mathrm{E} \\qty($1)$0"
+		"body": "\\mathrm{E}\\qty($1)$0"
 	},
 
 	"Variance": {
 		"prefix": "\\Var",
-		"body": "\\mathrm{Var} \\qty($1)$0"
+		"body": "\\mathrm{Var}\\qty($1)$0"
 	},
 
 	"Indication Function": {
 		"prefix": "\\I",
-		"body": "\\mathrm{I}_{$1} \\qty($2)$0"
+		"body": "\\mathrm{I}_{$1}\\qty($2)$0"
 	},
 
 	"Cumulative Distribution Function": {
 		"prefix": "\\F",
-		"body": "\\mathrm{F} \\qty($1)$0"
+		"body": "\\mathrm{F}\\qty($1)$0"
 	},
 
 	"Probability Generating Function": {
 		"prefix": "\\G",
-		"body": "\\mathrm{G} \\qty($1)$0"
+		"body": "\\mathrm{G}\\qty($1)$0"
 	},
 
 	"Moment Generating Function": {
 		"prefix": "\\M",
-		"body": "\\mathrm{M} \\qty($1)$0"
+		"body": "\\mathrm{M}\\qty($1)$0"
 	},
 
 	"Sum": {
@@ -100,6 +100,11 @@
 	"Integral": {
 		"prefix": "\\int",
 		"body": "\\int_{$1}^{$2} $3 \\dd{$4}$0"
+	},
+
+	"Union": {
+		"prefix": "\\bigcup",
+		"body": "\\bigcup_{$1}^{$2} $0"
 	},
 
 	"Limit": {
