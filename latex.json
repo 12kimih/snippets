@@ -49,47 +49,12 @@
 
 	"Definition Array": {
 		"prefix": "\\defarray",
-		"body": ["$1 = \\left\\{ \\begin{array}{cl}", "\t$2 & \\text{if } $3 \\\\\\", "\t$4 & \\text{if } $5", "\\end{array} \\right.$0"]
+		"body": ["\\left\\{ \\begin{array}{cl}", "\t$1 & \\text{if } $2 \\\\\\", "\t$3 & \\text{if } $4", "\\end{array} \\right.$0"]
 	},
 
-	"Roman Function": {
+	"Roman": {
 		"prefix": "\\mathrm",
-		"body": "\\mathrm{$1}\\qty($2)$0"
-	},
-
-	"Probability": {
-		"prefix": "\\P",
-		"body": "\\mathrm{P}\\qty($1)$0"
-	},
-
-	"Expectation": {
-		"prefix": "\\E",
-		"body": "\\mathrm{E}\\qty($1)$0"
-	},
-
-	"Variance": {
-		"prefix": "\\Var",
-		"body": "\\mathrm{Var}\\qty($1)$0"
-	},
-
-	"Indication Function": {
-		"prefix": "\\I",
-		"body": "\\mathrm{I}_{$1}\\qty($2)$0"
-	},
-
-	"Cumulative Distribution Function": {
-		"prefix": "\\F",
-		"body": "\\mathrm{F}\\qty($1)$0"
-	},
-
-	"Probability Generating Function": {
-		"prefix": "\\G",
-		"body": "\\mathrm{G}\\qty($1)$0"
-	},
-
-	"Moment Generating Function": {
-		"prefix": "\\M",
-		"body": "\\mathrm{M}\\qty($1)$0"
+		"body": "\\mathrm{$1}$0"
 	},
 
 	"Sum": {
@@ -105,6 +70,11 @@
 	"Union": {
 		"prefix": "\\bigcup",
 		"body": "\\bigcup_{$1}^{$2} $0"
+	},
+
+	"Intersection": {
+		"prefix": "\\bigcap",
+		"body": "\\bigcap_{$1}^{$2} $0"
 	},
 
 	"Limit": {
