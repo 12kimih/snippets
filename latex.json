@@ -131,4 +131,19 @@
 		"prefix": "\\Re",
 		"body": "\\Re{$1}$0"
 	},
+
+	"subfigure": {
+		"prefix": "\\subfigure",
+		"body": ["\\begin{subfigure}{0.4\\textwidth}", "\t$1", "\t\\caption{$2}", "\t\\label{$3}", "\\end{subfigure}$0"]
+	},
+
+	"textwidth": {
+		"prefix": "\\textwidth",
+		"body": "\\textwidth$0"
+	},
+
+	"linewidth": {
+		"prefix": "\\linewidth",
+		"body": "\\linewidth$0"
+	}
 }
