@@ -132,6 +132,11 @@
 		"body": "\\Re{$1}$0"
 	},
 
+	"for" : {
+		"prefix": "\\for",
+		"body": "\\text{for }$0"
+	},
+
 	"subfigure": {
 		"prefix": "\\subfigure",
 		"body": ["\\begin{subfigure}{0.4\\textwidth}", "\t$1", "\t\\caption{$2}", "\t\\label{$3}", "\\end{subfigure}$0"]
@@ -145,5 +150,10 @@
 	"linewidth": {
 		"prefix": "\\linewidth",
 		"body": "\\linewidth$0"
+	},
+
+	"cite problem": {
+		"prefix": "\\cite",
+		"body": "\\cite{$1}[\\textbf{$2}]$0"
 	}
 }
