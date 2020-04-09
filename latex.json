@@ -152,8 +152,13 @@
 		"body": "\\linewidth$0"
 	},
 
-	"cite problem": {
+	"question number": {
 		"prefix": "\\cite",
-		"body": "\\cite{$1}[\\textbf{$2}]$0"
+		"body": "\\textbf{\\cite{$1}$2}$0"
+	},
+
+	"mbox baselineskip" : {
+		"prefix": "\\mbox",
+		"body": "\\mbox{} \\vspace{-\\baselineskip}$0"
 	}
 }
