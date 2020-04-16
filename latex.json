@@ -117,6 +117,11 @@
 		"body": "_{$1}$0"
 	},
 
+	"Text Subscript": {
+		"prefix": "_\\text",
+		"body": "_{\\text{$1}}$0"
+	},
+
 	"Superscript": {
 		"prefix": "^{}",
 		"body": "^{$1}$0"
@@ -134,7 +139,12 @@
 
 	"for" : {
 		"prefix": "\\for",
-		"body": "\\text{for }$0"
+		"body": "\\quad \\text{for } $0"
+	},
+
+	"because" : {
+		"prefix": "\\because",
+		"body": "\\quad \\because $0"
 	},
 
 	"subfigure": {
@@ -157,8 +167,23 @@
 		"body": "\\textbf{\\cite{$1}$2}$0"
 	},
 
-	"mbox baselineskip" : {
+	"mbox baselineskip": {
 		"prefix": "\\mbox",
 		"body": "\\mbox{} \\vspace{-\\baselineskip}$0"
+	},
+
+	"si": {
+		"prefix": "\\si",
+		"body": "\\si{$1}$0"
+	},
+
+	"SI": {
+		"prefix": "\\SI",
+		"body": "\\SI{$1}{$2}$0"
+	},
+
+	"SIrange": {
+		"prefix": "\\SIrange",
+		"body": "\\SIrange{$1}{$2}{$3}$0"
 	}
 }
