@@ -162,8 +162,8 @@
 		"body": "\\linewidth$0"
 	},
 
-	"question number": {
-		"prefix": "\\cite",
+	"problem": {
+		"prefix": "\\problem",
 		"body": "\\textbf{\\cite{$1}$2}$0"
 	},
 
