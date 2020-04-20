@@ -42,6 +42,11 @@
 		"body": "& = & $0"
 	},
 
+	"Align <->": {
+		"prefix": "<->",
+		"body": "& \\longleftrightarrow & $0"
+	},
+
 	"Multiline Equation": {
 		"prefix": "\\negmedspace",
 		"body": "&& \\negmedspace {} $0"
@@ -97,6 +102,11 @@
 		"body": "\\qty[$1]$0"
 	},
 
+	"<>": {
+		"prefix": "<>",
+		"body": "\\langle $1 \\rangle$0"
+	},
+
 	"Evaluation": {
 		"prefix": "\\eval",
 		"body": "\\eval[$1|_{$2}^{$3}$0"
@@ -137,14 +147,19 @@
 		"body": "\\Re{$1}$0"
 	},
 
-	"for" : {
+	"for": {
 		"prefix": "\\for",
 		"body": "\\quad \\text{for } $0"
 	},
 
-	"because" : {
+	"because": {
 		"prefix": "\\because",
 		"body": "\\quad \\because $0"
+	},
+
+	"and": {
+		"prefix": "\\and",
+		"body": "\\text{ and } $0"
 	},
 
 	"subfigure": {
