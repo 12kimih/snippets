@@ -57,6 +57,11 @@
 		"body": ["\\left\\{ \\begin{array}{cl}", "\t$1 & \\text{if } $2 \\\\\\", "\t$3 & \\text{if } $4", "\\end{array} \\right.$0"]
 	},
 
+	"Condition Array": {
+		"prefix": "\\condarray",
+		"body": "\\begin{array}{l} $1 \\\\\\ $2 \\end{array}$0"
+	},
+
 	"Roman": {
 		"prefix": "\\mathrm",
 		"body": "\\mathrm{$1}$0"
@@ -64,27 +69,27 @@
 
 	"Sum": {
 		"prefix": "\\sum",
-		"body": "\\sum_{$1}^{$2} $0"
+		"body": "\\sum_{$1}^{$2}$0"
 	},
 
 	"Integral": {
 		"prefix": "\\int",
-		"body": "\\int_{$1}^{$2} $3 \\dd{$4}$0"
+		"body": "\\int_{$1}^{$2}$3\\dd{$4}$0"
 	},
 
 	"Union": {
 		"prefix": "\\bigcup",
-		"body": "\\bigcup_{$1}^{$2} $0"
+		"body": "\\bigcup_{$1}^{$2}$0"
 	},
 
 	"Intersection": {
 		"prefix": "\\bigcap",
-		"body": "\\bigcap_{$1}^{$2} $0"
+		"body": "\\bigcap_{$1}^{$2}$0"
 	},
 
 	"Limit": {
 		"prefix": "\\lim",
-		"body": "\\lim_{$1} $0"
+		"body": "\\lim_{$1}$0"
 	},
 
 	"Auto-sized ()": {
@@ -147,19 +152,34 @@
 		"body": "\\Re{$1}$0"
 	},
 
+	"Variance": {
+		"prefix": "\\Var",
+		"body": "\\mathrm{Var}\\qty($1)$0"
+	},
+
+	"Covariance": {
+		"prefix": "\\Cov",
+		"body": "\\mathrm{Cov}\\qty($1)$0"
+	},
+
+	"Correlation": {
+		"prefix": "\\Corr",
+		"body": "\\mathrm{Corr}\\qty($1)$0"
+	},
+
 	"for": {
 		"prefix": "\\for",
-		"body": "\\quad \\text{for } $0"
+		"body": "\\quad\\text{for }$0"
 	},
 
 	"because": {
 		"prefix": "\\because",
-		"body": "\\quad \\because $0"
+		"body": "\\quad\\because $0"
 	},
 
 	"and": {
 		"prefix": "\\and",
-		"body": "\\text{ and } $0"
+		"body": "\\text{ and }$0"
 	},
 
 	"subfigure": {
@@ -200,5 +220,10 @@
 	"SIrange": {
 		"prefix": "\\SIrange",
 		"body": "\\SIrange{$1}{$2}{$3}$0"
+	},
+
+	"Binomial": {
+		"prefix": "\\binom",
+		"body": "\\binom{$1}{$2}$0"
 	}
 }
