@@ -225,5 +225,15 @@
 	"Binomial": {
 		"prefix": "\\binom",
 		"body": "\\binom{$1}{$2}$0"
+	},
+
+	"lstlisting": {
+		"prefix": "\\lstlisting",
+		"body": ["\\begin{lstlisting}", "\t$1", "\\end{lstlisting}"]
+	},
+
+	"in-line verbatim": {
+		"prefix": "\\verb",
+		"body": "\\verb|$1|$0"
 	}
 }
