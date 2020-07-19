@@ -42,9 +42,9 @@
 		"body": "& = & $0"
 	},
 
-	"Align <->": {
-		"prefix": "<->",
-		"body": "& \\longleftrightarrow & $0"
+	"Align Character": {
+		"prefix": "\\&",
+		"body": "& $1 & $0"
 	},
 
 	"Multiline Equation": {
@@ -54,12 +54,12 @@
 
 	"Definition Array": {
 		"prefix": "\\defarray",
-		"body": ["\\left\\{ \\begin{array}{cl}", "\t$1 & \\text{if } $2 \\\\\\", "\t$3 & \\text{if } $4", "\\end{array} \\right.$0"]
+		"body": ["\\left\\{ \\begin{array}{cl}", "\t$1 & \\text{if }$2 \\\\\\", "\t$3 & \\text{if }$4", "\\end{array} \\right.$0"]
 	},
 
-	"Condition Array": {
-		"prefix": "\\condarray",
-		"body": "\\begin{array}{l} $1 \\\\\\ $2 \\end{array}$0"
+	"Function Array": {
+		"prefix": "\\funcarray",
+		"body": ["\\left\\{ \\begin{array}{r@{\\;}c@{\\;}l}", "\t$1", "\\end{array} \\right.$0"]
 	},
 
 	"Roman": {
@@ -92,6 +92,11 @@
 		"body": "\\lim_{$1}$0"
 	},
 
+	"Probability Limit": {
+		"prefix": "\\plim",
+		"body": "\\plim_{$1}$0"
+	},
+
 	"Auto-sized ()": {
 		"prefix" : "()",
 		"body": "\\qty($1)$0"
@@ -118,7 +123,7 @@
 	},
 
 	"Equation $$": {
-		"prefix": "$$",
+		"prefix": "\\$",
 		"body": "$$1$$0"
 	},
 
@@ -169,12 +174,12 @@
 
 	"for": {
 		"prefix": "\\for",
-		"body": "\\quad\\text{for }$0"
+		"body": "\\quad \\text{for }$0"
 	},
 
 	"because": {
 		"prefix": "\\because",
-		"body": "\\quad\\because $0"
+		"body": "\\quad \\because $0"
 	},
 
 	"and": {
@@ -235,5 +240,30 @@
 	"inline verbatim": {
 		"prefix": "\\verb",
 		"body": "\\verb|$1|$0"
+	},
+
+	"Fourier Transform": {
+		"prefix": "\\FT",
+		"body": "\\stackrel{\\mathcal{FT}}{\\longleftrightarrow}"
+	},
+
+	"Fourier Series": {
+		"prefix": "\\FS",
+		"body": "\\stackrel{\\mathcal{FS}}{\\longleftrightarrow}"
+	},
+
+	"Odd": {
+		"prefix": "\\Od",
+		"body": "\\mathrm{Od}\\qty{$1}$0"
+	},
+
+	"Even": {
+		"prefix": "\\Ev",
+		"body": "\\mathrm{Ev}\\qty{$1}$0"
+	},
+
+	"Absolute Value": {
+		"prefix": "\\abs",
+		"body": "\\abs{$1}$0"
 	}
 }
