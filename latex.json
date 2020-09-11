@@ -266,4 +266,9 @@
 		"prefix": "\\abs",
 		"body": "\\abs{$1}$0",
 	},
+
+	"Overbar": {
+		"prefix": "\\overbar",
+		"body": "\\overbar{$1}$0",
+	},
 }
