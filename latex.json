@@ -17,9 +17,9 @@
 		"body": ["\\begin{enumerate}[label=(\\alph*)]", "\t\\item $1", "\\end{enumerate}$0"],
 	},
 
-	"Enumerate i)": {
+	"Enumerate (i)": {
 		"prefix": "\\enumerate",
-		"body": ["\\begin{enumerate}[label=\\roman*)]", "\t\\item $1", "\\end{enumerate}$0"],
+		"body": ["\\begin{enumerate}[label=(\\roman*)]", "\t\\item $1", "\\end{enumerate}$0"],
 	},
 
 	"IEEEeqnarray": {
@@ -70,6 +70,11 @@
 	"Sum": {
 		"prefix": "\\sum",
 		"body": "\\sum_{$1}^{$2}$0",
+	},
+
+	"Product": {
+		"prefix": "\\prod",
+		"body": "\\prod_{$1}^{$2}$0",
 	},
 
 	"Integral": {
@@ -270,5 +275,10 @@
 	"Overbar": {
 		"prefix": "\\overbar",
 		"body": "\\overbar{$1}$0",
+	},
+
+	"MLE": {
+		"prefix": "\\MLE",
+		"body": "\\hat{$1}^{\\text{MLE}}$0",
 	},
 }
