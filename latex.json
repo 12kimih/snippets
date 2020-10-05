@@ -277,8 +277,23 @@
 		"body": "\\overbar{$1}$0",
 	},
 
+	"MME": {
+		"prefix": "\\MME",
+		"body": "\\hat{$1}^{\\text{MME}}$0",
+	},
+
 	"MLE": {
 		"prefix": "\\MLE",
 		"body": "\\hat{$1}^{\\text{MLE}}$0",
+	},
+
+	"LSE": {
+		"prefix": "\\LSE",
+		"body": "\\hat{$1}^{\\text{LSE}}$0",
+	},
+
+	"let": {
+		"prefix": "\\let",
+		"body": "\\stackrel{\\text{let}}{=}$0",
 	},
 }
