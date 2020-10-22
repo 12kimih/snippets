@@ -164,17 +164,17 @@
 
 	"Variance": {
 		"prefix": "\\Var",
-		"body": "\\mathrm{Var}\\qty($1)$0",
+		"body": "\\mathrm{Var}[$1]$0",
 	},
 
 	"Covariance": {
 		"prefix": "\\Cov",
-		"body": "\\mathrm{Cov}\\qty($1)$0",
+		"body": "\\mathrm{Cov}[$1]$0",
 	},
 
 	"Correlation": {
 		"prefix": "\\Corr",
-		"body": "\\mathrm{Corr}\\qty($1)$0",
+		"body": "\\mathrm{Corr}[$1]$0",
 	},
 
 	"for": {
