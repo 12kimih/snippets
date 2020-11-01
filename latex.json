@@ -34,7 +34,7 @@
 
 	"IEEEeqnarraymulticol": {
 		"prefix": "\\IEEEeqnarraymulticol",
-		"body": ["\\IEEEeqnarraymulticol{3}{l}{", "\t$1", "}$0"],
+		"body": "\\IEEEeqnarraymulticol{3}{c}{$1}$0",
 	},
 
 	"Align =": {
