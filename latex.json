@@ -69,37 +69,37 @@
 
 	"Sum": {
 		"prefix": "\\sum",
-		"body": "\\sum_{$1}^{$2}$0",
+		"body": "\\sum_{$1}^{$2} $0",
 	},
 
 	"Product": {
 		"prefix": "\\prod",
-		"body": "\\prod_{$1}^{$2}$0",
+		"body": "\\prod_{$1}^{$2} $0",
 	},
 
 	"Integral": {
 		"prefix": "\\int",
-		"body": "\\int_{$1}^{$2}$3\\dd{$4}$0",
+		"body": "\\int_{$1}^{$2} $3 \\dd{$4}$0",
 	},
 
 	"Union": {
 		"prefix": "\\bigcup",
-		"body": "\\bigcup_{$1}^{$2}$0",
+		"body": "\\bigcup_{$1}^{$2} $0",
 	},
 
 	"Intersection": {
 		"prefix": "\\bigcap",
-		"body": "\\bigcap_{$1}^{$2}$0",
+		"body": "\\bigcap_{$1}^{$2} $0",
 	},
 
 	"Limit": {
 		"prefix": "\\lim",
-		"body": "\\lim_{$1}$0",
+		"body": "\\lim_{$1} $0",
 	},
 
 	"Probability Limit": {
 		"prefix": "\\plim",
-		"body": "\\plim_{$1}$0",
+		"body": "\\plim_{$1} $0",
 	},
 
 	"Auto-sized ()": {
@@ -175,21 +175,6 @@
 	"Correlation": {
 		"prefix": "\\Corr",
 		"body": "\\mathrm{Corr}[$1]$0",
-	},
-
-	"for": {
-		"prefix": "\\for",
-		"body": "\\quad \\text{for }$0",
-	},
-
-	"because": {
-		"prefix": "\\because",
-		"body": "\\quad \\because $0",
-	},
-
-	"and": {
-		"prefix": "\\and",
-		"body": "\\text{ and }$0",
 	},
 
 	"subfigure": {
@@ -290,6 +275,11 @@
 	"LSE": {
 		"prefix": "\\LSE",
 		"body": "\\hat{$1}^{\\text{LSE}}$0",
+	},
+
+	"UMVUE": {
+		"prefix": "\\UMVUE",
+		"body": "\\hat{$1}^{\\text{UMVUE}}$0",
 	},
 
 	"let": {
