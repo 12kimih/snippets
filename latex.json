@@ -69,37 +69,37 @@
 
 	"Sum": {
 		"prefix": "\\sum",
-		"body": "\\sum_{$1}^{$2} $0",
+		"body": "\\sum_{$1}^{$2}$0",
 	},
 
 	"Product": {
 		"prefix": "\\prod",
-		"body": "\\prod_{$1}^{$2} $0",
+		"body": "\\prod_{$1}^{$2}$0",
 	},
 
 	"Integral": {
 		"prefix": "\\int",
-		"body": "\\int_{$1}^{$2} $3 \\dd{$4}$0",
+		"body": "\\int_{$1}^{$2}$3\\dd{$4}$0",
 	},
 
 	"Union": {
 		"prefix": "\\bigcup",
-		"body": "\\bigcup_{$1}^{$2} $0",
+		"body": "\\bigcup_{$1}^{$2}$0",
 	},
 
 	"Intersection": {
 		"prefix": "\\bigcap",
-		"body": "\\bigcap_{$1}^{$2} $0",
+		"body": "\\bigcap_{$1}^{$2}$0",
 	},
 
 	"Limit": {
 		"prefix": "\\lim",
-		"body": "\\lim_{$1} $0",
+		"body": "\\lim_{$1}$0",
 	},
 
 	"Probability Limit": {
 		"prefix": "\\plim",
-		"body": "\\plim_{$1} $0",
+		"body": "\\plim_{$1}$0",
 	},
 
 	"Auto-sized ()": {
@@ -164,17 +164,17 @@
 
 	"Variance": {
 		"prefix": "\\Var",
-		"body": "\\mathrm{Var}[$1]$0",
+		"body": "\\mathrm{Var}$0",
 	},
 
 	"Covariance": {
 		"prefix": "\\Cov",
-		"body": "\\mathrm{Cov}[$1]$0",
+		"body": "\\mathrm{Cov}$0",
 	},
 
 	"Correlation": {
 		"prefix": "\\Corr",
-		"body": "\\mathrm{Corr}[$1]$0",
+		"body": "\\mathrm{Corr}$0",
 	},
 
 	"subfigure": {
@@ -195,11 +195,6 @@
 	"problem": {
 		"prefix": "\\problem",
 		"body": "\\textbf{\\cite{$1}$2}$0",
-	},
-
-	"mbox baselineskip": {
-		"prefix": "\\mbox",
-		"body": "\\mbox{} \\vspace{-\\baselineskip}$0",
 	},
 
 	"si": {
@@ -264,22 +259,27 @@
 
 	"MME": {
 		"prefix": "\\MME",
-		"body": "\\hat{$1}^{\\text{MME}}$0",
+		"body": "\\hat{$1}^{\\mathrm{MME}}$0",
 	},
 
 	"MLE": {
 		"prefix": "\\MLE",
-		"body": "\\hat{$1}^{\\text{MLE}}$0",
+		"body": "\\hat{$1}^{\\mathrm{MLE}}$0",
 	},
 
 	"LSE": {
 		"prefix": "\\LSE",
-		"body": "\\hat{$1}^{\\text{LSE}}$0",
+		"body": "\\hat{$1}^{\\mathrm{LSE}}$0",
+	},
+
+	"UE": {
+		"prefix": "\\UE",
+		"body": "\\hat{$1}^{\\mathrm{UE}}$0",
 	},
 
 	"UMVUE": {
 		"prefix": "\\UMVUE",
-		"body": "\\hat{$1}^{\\text{UMVUE}}$0",
+		"body": "\\hat{$1}^{\\mathrm{UMVUE}}$0",
 	},
 
 	"let": {
