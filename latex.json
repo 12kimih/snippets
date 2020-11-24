@@ -157,11 +157,6 @@
 		"body": "\\textbf{\\cite{$1}$2}$0",
 	},
 
-	"Let Symbol": {
-		"prefix": "\\leteq",
-		"body": "\\leteq",
-	},
-
 	"Expectation": {
 		"prefix": "\\E",
 		"body": "\\E$0",
