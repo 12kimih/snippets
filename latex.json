@@ -162,19 +162,29 @@
 		"body": "\\Re{$1}$0",
 	},
 
+	"Probability": {
+		"prefix": "\\P",
+		"body": "\\P$0",
+	},
+
+	"Expectation": {
+		"prefix": "\\E",
+		"body": "\\E$0",
+	},
+
 	"Variance": {
 		"prefix": "\\Var",
-		"body": "\\mathrm{Var}$0",
+		"body": "\\Var$0",
 	},
 
 	"Covariance": {
 		"prefix": "\\Cov",
-		"body": "\\mathrm{Cov}$0",
+		"body": "\\Cov$0",
 	},
 
 	"Correlation": {
 		"prefix": "\\Corr",
-		"body": "\\mathrm{Corr}$0",
+		"body": "\\Corr$0",
 	},
 
 	"subfigure": {
@@ -285,5 +295,10 @@
 	"let": {
 		"prefix": "\\let",
 		"body": "\\stackrel{\\text{let}}{=}$0",
+	},
+
+	"Partial Derivative": {
+		"prefix": "\\pdv",
+		"body": "\\pdv{$1}{$2}$0",
 	},
 }
