@@ -157,6 +157,31 @@
 		"body": "\\textbf{\\cite{$1}$2}$0",
 	},
 
+	"Sign": {
+		"prefix": "\\sgn",
+		"body": "\\sgn$0",
+	},
+
+	"Diagonal": {
+		"prefix": "\\diag",
+		"body": "\\diag$0",
+	},
+
+	"AVAR": {
+		"prefix": "\\avar",
+		"body": "\\avar$0",
+	},
+
+	"Odd": {
+		"prefix": "\\Od",
+		"body": "\\Od$0",
+	},
+
+	"Even": {
+		"prefix": "\\Ev",
+		"body": "\\Ev$0",
+	},
+
 	"Expectation": {
 		"prefix": "\\E",
 		"body": "\\E$0",
@@ -177,9 +202,114 @@
 		"body": "\\Corr$0",
 	},
 
+	"ARE": {
+		"prefix": "\\ARE",
+		"body": "\\ARE$0",
+	},
+
+	"Normal": {
+		"prefix": "\\Normal",
+		"body": "\\Normal$0",
+	},
+
+	"Bernoulli": {
+		"prefix": "\\Bernoulli",
+		"body": "\\Bernoulli$0",
+	},
+
+	"Binomial": {
+		"prefix": "\\Binomial",
+		"body": "\\Binomial$0",
+	},
+
+	"Multinomial": {
+		"prefix": "\\Multinomial",
+		"body": "\\Multinomial$0",
+	},
+
+	"Poisson": {
+		"prefix": "\\Poisson",
+		"body": "\\Poisson$0",
+	},
+
+	"Exponential": {
+		"prefix": "\\Exponential",
+		"body": "\\Exponential$0",
+	},
+
+	"Gamma-distribution": {
+		"prefix": "\\Gammadist",
+		"body": "\\Gammadist$0",
+	},
+
+	"Beta-distribution": {
+		"prefix": "\\Betadist",
+		"body": "\\Betadist$0",
+	},
+
+	"Dirichlet": {
+		"prefix": "\\Dirichlet",
+		"body": "\\Dirichlet$0",
+	},
+
+	"Chi-square": {
+		"prefix": "\\Chisquare",
+		"body": "\\Chisquare$0",
+	},
+
+	"t-distribution": {
+		"prefix": "\\tdist",
+		"body": "\\tdist$0",
+	},
+
+	"F-distribution": {
+		"prefix": "\\Fdist",
+		"body": "\\Fdist$0",
+	},
+
+	"Laplace": {
+		"prefix": "\\Laplace",
+		"body": "\\Laplace$0",
+	},
+
+	"Logistic": {
+		"prefix": "\\Logistic",
+		"body": "\\Logistic$0",
+	},
+
+	"Cauchy": {
+		"prefix": "\\Cauchy",
+		"body": "\\Cauchy$0",
+	},
+
+	"Weibull": {
+		"prefix": "\\Weibull",
+		"body": "\\Weibull$0",
+	},
+
+	"Pareto": {
+		"prefix": "\\Pareto",
+		"body": "\\Pareto$0",
+	},
+
+	"Gumbel": {
+		"prefix": "\\Gumbel",
+		"body": "\\Gumbel$0",
+	},
+
+	"Independent and Identically Distributed": {
+		"prefix": "\\iid",
+		"body": "\\iid$0",
+	},
+
 	"Overbar": {
 		"prefix": "\\overbar",
 		"body": "\\overbar{$1}$0",
+	},
+
+	"Superscript Hat": {
+		"prefix": "\\superhat",
+		"body": "\\superhat{$1}{$2}$0",
 	},
 
 	"MME": {
