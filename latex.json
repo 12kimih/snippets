@@ -207,6 +207,11 @@
 		"body": "\\ARE$0",
 	},
 
+	"Uniform": {
+		"prefix": "\\Uniform",
+		"body": "\\Uniform$0",
+	},
+
 	"Normal": {
 		"prefix": "\\Normal",
 		"body": "\\Normal$0",
@@ -250,21 +255,6 @@
 	"Dirichlet": {
 		"prefix": "\\Dirichlet",
 		"body": "\\Dirichlet$0",
-	},
-
-	"Chi-square": {
-		"prefix": "\\Chisquare",
-		"body": "\\Chisquare$0",
-	},
-
-	"t-distribution": {
-		"prefix": "\\tdist",
-		"body": "\\tdist$0",
-	},
-
-	"F-distribution": {
-		"prefix": "\\Fdist",
-		"body": "\\Fdist$0",
 	},
 
 	"Laplace": {
