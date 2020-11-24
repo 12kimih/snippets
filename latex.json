@@ -22,6 +22,11 @@
 		"body": ["\\begin{enumerate}[label=(\\roman*)]", "\t\\item $1", "\\end{enumerate}$0"],
 	},
 
+	"Subfigure": {
+		"prefix": "\\subfigure",
+		"body": ["\\begin{subfigure}{0.4\\textwidth}", "\t$1", "\t\\caption{$2}", "\t\\label{$3}", "\\end{subfigure}$0"],
+	},
+
 	"IEEEeqnarray": {
 		"prefix": "\\IEEEeqnarray",
 		"body": ["\\begin{IEEEeqnarray}{rCl}", "\t$1", "\\end{IEEEeqnarray}$0"],
@@ -42,7 +47,7 @@
 		"body": "& = & $0",
 	},
 
-	"Align Character": {
+	"Align Operator": {
 		"prefix": "\\&",
 		"body": "& $1 & $0",
 	},
@@ -60,11 +65,6 @@
 	"Function Array": {
 		"prefix": "\\funcarray",
 		"body": ["\\left\\{ \\begin{array}{r@{\\;}c@{\\;}l}", "\t$1", "\\end{array} \\right.$0"],
-	},
-
-	"Roman": {
-		"prefix": "\\mathrm",
-		"body": "\\mathrm{$1}$0",
 	},
 
 	"Sum": {
@@ -117,14 +117,19 @@
 		"body": "\\qty[$1]$0",
 	},
 
-	"<>": {
+	"Auto-sized <>": {
 		"prefix": "<>",
 		"body": "\\langle $1 \\rangle$0",
 	},
 
-	"Evaluation": {
+	"Auto-sized Evaluation": {
 		"prefix": "\\eval",
 		"body": "\\eval[$1|_{$2}^{$3}$0",
+	},
+
+	"Equation []": {
+		"prefix" : "\\[]",
+		"body": "\\[ $1 \\]$0",
 	},
 
 	"Equation $$": {
@@ -132,9 +137,9 @@
 		"body": "$$1$$0",
 	},
 
-	"Equation []": {
-		"prefix" : "\\[]",
-		"body": "\\[ $1 \\]$0",
+	"Superscript": {
+		"prefix": "^{}",
+		"body": "^{$1}$0",
 	},
 
 	"Subscript": {
@@ -147,24 +152,14 @@
 		"body": "_{\\text{$1}}$0",
 	},
 
-	"Superscript": {
-		"prefix": "^{}",
-		"body": "^{$1}$0",
+	"Question": {
+		"prefix": "\\question",
+		"body": "\\textbf{\\cite{$1}$2}$0",
 	},
 
-	"Complement": {
-		"prefix": "\\complement",
-		"body": "^{\\mathrm{c}}$0",
-	},
-
-	"Real Part": {
-		"prefix": "\\Re",
-		"body": "\\Re{$1}$0",
-	},
-
-	"Probability": {
-		"prefix": "\\P",
-		"body": "\\P$0",
+	"Let Symbol": {
+		"prefix": "\\leteq",
+		"body": "\\leteq",
 	},
 
 	"Expectation": {
@@ -187,81 +182,6 @@
 		"body": "\\Corr$0",
 	},
 
-	"subfigure": {
-		"prefix": "\\subfigure",
-		"body": ["\\begin{subfigure}{0.4\\textwidth}", "\t$1", "\t\\caption{$2}", "\t\\label{$3}", "\\end{subfigure}$0"],
-	},
-
-	"textwidth": {
-		"prefix": "\\textwidth",
-		"body": "\\textwidth$0",
-	},
-
-	"linewidth": {
-		"prefix": "\\linewidth",
-		"body": "\\linewidth$0",
-	},
-
-	"problem": {
-		"prefix": "\\problem",
-		"body": "\\textbf{\\cite{$1}$2}$0",
-	},
-
-	"si": {
-		"prefix": "\\si",
-		"body": "\\si{$1}$0",
-	},
-
-	"SI": {
-		"prefix": "\\SI",
-		"body": "\\SI{$1}{$2}$0",
-	},
-
-	"SIrange": {
-		"prefix": "\\SIrange",
-		"body": "\\SIrange{$1}{$2}{$3}$0",
-	},
-
-	"Binomial": {
-		"prefix": "\\binom",
-		"body": "\\binom{$1}{$2}$0",
-	},
-
-	"lstlisting": {
-		"prefix": "\\lstlisting",
-		"body": ["\\begin{lstlisting}", "\t$1", "\\end{lstlisting}"],
-	},
-
-	"inline verbatim": {
-		"prefix": "\\verb",
-		"body": "\\verb|$1|$0",
-	},
-
-	"Fourier Transform": {
-		"prefix": "\\FT",
-		"body": "\\stackrel{\\mathcal{FT}}{\\longleftrightarrow}",
-	},
-
-	"Fourier Series": {
-		"prefix": "\\FS",
-		"body": "\\stackrel{\\mathcal{FS}}{\\longleftrightarrow}",
-	},
-
-	"Odd": {
-		"prefix": "\\Od",
-		"body": "\\mathrm{Od}\\qty{$1}$0",
-	},
-
-	"Even": {
-		"prefix": "\\Ev",
-		"body": "\\mathrm{Ev}\\qty{$1}$0",
-	},
-
-	"Absolute Value": {
-		"prefix": "\\abs",
-		"body": "\\abs{$1}$0",
-	},
-
 	"Overbar": {
 		"prefix": "\\overbar",
 		"body": "\\overbar{$1}$0",
@@ -269,36 +189,26 @@
 
 	"MME": {
 		"prefix": "\\MME",
-		"body": "\\hat{$1}^{\\mathrm{MME}}$0",
+		"body": "\\MME{$1}$0",
 	},
 
 	"MLE": {
 		"prefix": "\\MLE",
-		"body": "\\hat{$1}^{\\mathrm{MLE}}$0",
+		"body": "\\MLE{$1}$0",
 	},
 
 	"LSE": {
 		"prefix": "\\LSE",
-		"body": "\\hat{$1}^{\\mathrm{LSE}}$0",
+		"body": "\\LSE{$1}$0",
 	},
 
 	"UE": {
 		"prefix": "\\UE",
-		"body": "\\hat{$1}^{\\mathrm{UE}}$0",
+		"body": "\\UE{$1}$0",
 	},
 
 	"UMVUE": {
 		"prefix": "\\UMVUE",
-		"body": "\\hat{$1}^{\\mathrm{UMVUE}}$0",
-	},
-
-	"let": {
-		"prefix": "\\let",
-		"body": "\\stackrel{\\text{let}}{=}$0",
-	},
-
-	"Partial Derivative": {
-		"prefix": "\\pdv",
-		"body": "\\pdv{$1}{$2}$0",
+		"body": "\\UMVUE{$1}$0",
 	},
 }
