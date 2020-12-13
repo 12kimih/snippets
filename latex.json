@@ -182,11 +182,6 @@
 		"body": "\\Ev$0",
 	},
 
-	"Expectation": {
-		"prefix": "\\E",
-		"body": "\\E$0",
-	},
-
 	"Variance": {
 		"prefix": "\\Var",
 		"body": "\\Var$0",
@@ -212,11 +207,6 @@
 		"body": "\\Uniform$0",
 	},
 
-	"Normal": {
-		"prefix": "\\Normal",
-		"body": "\\Normal$0",
-	},
-
 	"Bernoulli": {
 		"prefix": "\\Bernoulli",
 		"body": "\\Bernoulli$0",
@@ -232,6 +222,26 @@
 		"body": "\\Multinomial$0",
 	},
 
+	"Hypergeometric": {
+		"prefix": "\\Hypergeometric",
+		"body": "\\Hypergeometric$0",
+	},
+
+	"Geometric": {
+		"prefix": "\\Geometric",
+		"body": "\\Geometric$0",
+	},
+
+	"Negative Binomial": {
+		"prefix": "\\NegativeBinomial",
+		"body": "\\NegativeBinomial$0",
+	},
+
+	"Normal": {
+		"prefix": "\\Normal",
+		"body": "\\Normal$0",
+	},
+
 	"Poisson": {
 		"prefix": "\\Poisson",
 		"body": "\\Poisson$0",
@@ -242,14 +252,14 @@
 		"body": "\\Exponential$0",
 	},
 
-	"Gamma-distribution": {
-		"prefix": "\\Gammadist",
-		"body": "\\Gammadist$0",
+	"Gamma Distribution": {
+		"prefix": "\\GammaDistribution",
+		"body": "\\GammaDistribution$0",
 	},
 
-	"Beta-distribution": {
-		"prefix": "\\Betadist",
-		"body": "\\Betadist$0",
+	"Beta Distribution": {
+		"prefix": "\\BetaDistribution",
+		"body": "\\BetaDistribution$0",
 	},
 
 	"Dirichlet": {
